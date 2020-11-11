@@ -1,0 +1,45 @@
+name: logo12
+description: A new Flutter application.
+
+
+publish_to:
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+
+  cupertino_icons: ^0.1.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - images/download.png
+    - images/dd.png
+    - images/ff.png
+
+
+  fonts:
+    - family: Charmonman
+      fonts:
+        - asset: Fonts/Charmonman-Bold.ttf
+        - asset: Fonts/Charmonman-Regular.ttf
+    - family: Roboto
+      fonts:
+            - asset: Fonts/Roboto-Light.ttf
+
+
+
+
